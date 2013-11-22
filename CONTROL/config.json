@@ -1,0 +1,29 @@
+{
+   "general":{
+      "package":"clipboard",
+      "name":"ClipBoard",
+      "version":"1.0.0.r1",
+      "depends":[],
+      "conflicts":[],
+      "developer":"Woodrow Shen, Chenghan Chen",
+      "maintainer":"Woodrow Shen, Chenghan Chen",
+      "email":"woodrow.shen@gmail.com",
+      "website":"https://github.com/woodrow-shen/",
+      "architecture":"i386",
+      "firmware":"2.0"
+   },
+   "adm-desktop":{
+      "app":{
+         "type":"internal",
+         "js":[
+            "clipboard.js"
+         ],
+         "module":"AS.ARC.apps.clipboard.main",
+         "langTag":"ClipBoard"
+      },
+      "privilege":{
+         "accessible":"users",
+         "customizable":true
+      }
+   }
+}
